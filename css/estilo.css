@@ -1,0 +1,133 @@
+/**
+* ! Fontes ------------------------------------------------------------------------
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+h1, h2{
+    font-family: "Viaoda Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+    *{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+html{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #555;
+    line-height: 1.5;
+}
+.contener{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    max-width: 64rem;
+    margin: auto;
+    padding-top: 1rem;
+
+}
+.page-header{
+    background-color: #162028;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+.page-header-logo{
+    font-size: 2rem;
+    color: white;
+    margin-left: 10rem;
+}
+.page-header-menu {
+    display: flex;
+    gap: 1.5rem;
+    margin-right: 2rem;
+    color: #425564;
+}
+
+.header-menu-link{
+    text-decoration: none;
+    letter-spacing: .1rem;
+    color: #555;
+    transition-property: color, border, padding;
+    transition-duration: .7s;
+    transition-timing-function: ease-in-out;
+}
+.header-menu-link:hover{
+    color: white;
+}
+.contener-img{
+    width: 100%;
+    margin-bottom: 5rem ;
+}
+.page-main{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.page-main-artic{
+    width: 80%;
+}
+.page-main-artic-titulo{
+    text-align: center;
+    font-size: 2.5rem;
+    color: black;
+}
+.page-main-artic-conteudo{
+    text-align: center;
+    margin: 3rem 0 5rem 0;
+}
+
+.galery{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 80%;
+    margin-bottom: 1rem;
+}
+.galery-item{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    max-width: 100%;
+    gap: 1rem;
+}
+.galery-item img{
+    max-width: 100%;
+}
+.galery-item p{
+    text-align: center;
+}
+.galery-item-name{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.about{
+    padding: 7rem 5.5rem;
+    background-color: #003d52;
+    background-image: url("../imagens/bg_detalhe.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    color: white;
+    margin-top: 4rem;
+}
+.about h2{
+    text-transform: uppercase;
+    font-size: 2.8rem;
+    margin-bottom: 3rem;
+}
+.about p{
+    width: 70%;
+}
+.page-footer{
+    text-align: left;
+    width: 100%;
+    margin-bottom: 1rem;
+}
